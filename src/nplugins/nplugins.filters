@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MyEngine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugin.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsServer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageServer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugin.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedLibrary.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{c792e262-a694-4682-add0-5393b428f42d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{522dac60-3bb7-4d93-8e33-2f1b20c0a57b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

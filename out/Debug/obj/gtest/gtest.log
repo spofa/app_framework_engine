@@ -1,0 +1,22 @@
+﻿Build started 2015/7/9 14:48:49.
+     1>Project "D:\app_framework_engine\src\thirdparty\protobuf\gtest\msvc\gtest.vcxproj" on node 3 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\app_framework_engine\\out\Debug\obj\gtest\gtest.tlog\".
+       InitializeBuildStatus:
+         Creating "D:\app_framework_engine\\out\Debug\obj\gtest\gtest.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\include /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\app_framework_engine\\out\Debug\obj\gtest\\" /Fd"D:\app_framework_engine\\out\Debug\obj\gtest\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\src\gtest-all.cc"
+         gtest-all.cc
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1354,5): warning MSB8012: TargetPath(D:\app_framework_engine\\out\Debug\lib\gtest.lib) does not match the Library's OutputFile property value (D:\app_framework_engine\out\Debug\lib\gtestd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1356,5): warning MSB8012: TargetName(gtest) does not match the Library's OutputFile property value (gtestd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\app_framework_engine\\out\Debug\lib\gtestd.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO "D:\app_framework_engine\\out\Debug\obj\gtest\gtest-all.obj"
+         gtest.vcxproj -> D:\app_framework_engine\\out\Debug\lib\gtest.lib
+       FinalizeBuildStatus:
+         Deleting file "D:\app_framework_engine\\out\Debug\obj\gtest\gtest.tlog\unsuccessfulbuild".
+         Touching "D:\app_framework_engine\\out\Debug\obj\gtest\gtest.tlog\gtest.lastbuildstate".
+     1>Done Building Project "D:\app_framework_engine\src\thirdparty\protobuf\gtest\msvc\gtest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09

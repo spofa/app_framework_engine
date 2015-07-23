@@ -1,0 +1,20 @@
+﻿Build started 2015/5/19 10:45:46.
+     1>Project "D:\app_framework_engine\src\thirdparty\protobuf\gtest\msvc\gtest_main.vcxproj" on node 4 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "afe/Debug\gtest_main\gtest_main.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\include /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"afe/Debug\gtest_main\\" /Fd"afe/Debug\gtest_main\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\gtest_main.cc
+         gtest_main.cc
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1354,5): warning MSB8012: TargetPath(D:\app_framework_engine\src\thirdparty\protobuf\gtest\msvc\afe/Debug\gtest_main.lib) does not match the Library's OutputFile property value (D:\app_framework_engine\src\thirdparty\protobuf\gtest\msvc\afe\Debug\gtest_maind.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1356,5): warning MSB8012: TargetName(gtest_main) does not match the Library's OutputFile property value (gtest_maind). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"afe/Debug\gtest_maind.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO afe/Debug\gtest_main\gtest_main.obj
+         gtest_main.vcxproj -> D:\app_framework_engine\src\thirdparty\protobuf\gtest\msvc\afe/Debug\gtest_main.lib
+       FinalizeBuildStatus:
+         Deleting file "afe/Debug\gtest_main\gtest_main.tlog\unsuccessfulbuild".
+         Touching "afe/Debug\gtest_main\gtest_main.tlog\gtest_main.lastbuildstate".
+     1>Done Building Project "D:\app_framework_engine\src\thirdparty\protobuf\gtest\msvc\gtest_main.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.32

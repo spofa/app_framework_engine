@@ -1,0 +1,20 @@
+﻿Build started 2015/7/9 14:47:05.
+     1>Project "D:\app_framework_engine\src\thirdparty\protobuf\gtest\msvc\gtest_main.vcxproj" on node 5 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\app_framework_engine\\out\Release\obj\gtest_main\gtest_main.tlog\".
+       InitializeBuildStatus:
+         Creating "D:\app_framework_engine\\out\Release\obj\gtest_main\gtest_main.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\include /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\app_framework_engine\\out\Release\obj\gtest_main\\" /Fd"D:\app_framework_engine\\out\Release\obj\gtest_main\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\gtest_main.cc
+         gtest_main.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\app_framework_engine\\out\Release\lib\gtest_main.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO D:\app_framework_engine\\out\Release\obj\gtest_main\gtest_main.obj
+         gtest_main.vcxproj -> D:\app_framework_engine\\out\Release\lib\gtest_main.lib
+       FinalizeBuildStatus:
+         Deleting file "D:\app_framework_engine\\out\Release\obj\gtest_main\gtest_main.tlog\unsuccessfulbuild".
+         Touching "D:\app_framework_engine\\out\Release\obj\gtest_main\gtest_main.tlog\gtest_main.lastbuildstate".
+     1>Done Building Project "D:\app_framework_engine\src\thirdparty\protobuf\gtest\msvc\gtest_main.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96

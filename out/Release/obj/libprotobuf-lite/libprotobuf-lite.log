@@ -1,0 +1,50 @@
+﻿Build started 2015/7/9 14:47:06.
+     1>Project "D:\app_framework_engine\src\thirdparty\protobuf\vsprojects\libprotobuf-lite.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\libprotobuf-lite.tlog\".
+       InitializeBuildStatus:
+         Creating "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\libprotobuf-lite.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I. /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBPROTOBUF_EXPORTS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\\" /Fd"D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\stubs\atomicops_internals_x86_gcc.cc ..\src\google\protobuf\stubs\atomicops_internals_x86_msvc.cc ..\src\google\protobuf\stubs\common.cc ..\src\google\protobuf\stubs\once.cc ..\src\google\protobuf\stubs\stringprintf.cc ..\src\google\protobuf\arena.cc ..\src\google\protobuf\arenastring.cc ..\src\google\protobuf\extension_set.cc ..\src\google\protobuf\generated_message_util.cc ..\src\google\protobuf\message_lite.cc ..\src\google\protobuf\repeated_field.cc ..\src\google\protobuf\wire_format_lite.cc ..\src\google\protobuf\io\coded_stream.cc ..\src\google\protobuf\io\zero_copy_stream.cc ..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc
+         atomicops_internals_x86_gcc.cc
+         atomicops_internals_x86_msvc.cc
+         common.cc
+         once.cc
+         stringprintf.cc
+         arena.cc
+         arenastring.cc
+         extension_set.cc
+         generated_message_util.cc
+         message_lite.cc
+         repeated_field.cc
+         wire_format_lite.cc
+         coded_stream.cc
+         zero_copy_stream.cc
+         zero_copy_stream_impl_lite.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\app_framework_engine\\out\Release\lib\libprotobuf-lite.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\atomicops_internals_x86_gcc.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\atomicops_internals_x86_msvc.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\common.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\once.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\stringprintf.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\arena.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\arenastring.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\extension_set.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\generated_message_util.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\message_lite.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\repeated_field.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\wire_format_lite.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\coded_stream.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\zero_copy_stream.obj"
+         "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\zero_copy_stream_impl_lite.obj"
+     1>atomicops_internals_x86_gcc.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libprotobuf-lite.vcxproj -> D:\app_framework_engine\\out\Release\lib\libprotobuf-lite.lib
+       FinalizeBuildStatus:
+         Deleting file "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\libprotobuf-lite.tlog\unsuccessfulbuild".
+         Touching "D:\app_framework_engine\\out\Release\obj\libprotobuf-lite\libprotobuf-lite.tlog\libprotobuf-lite.lastbuildstate".
+     1>Done Building Project "D:\app_framework_engine\src\thirdparty\protobuf\vsprojects\libprotobuf-lite.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.01

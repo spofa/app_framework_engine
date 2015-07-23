@@ -1,0 +1,21 @@
+﻿Build started 2015/7/9 14:47:02.
+     1>Project "D:\app_framework_engine\src\plugin_example\ZipPlugin\ZipPlugin.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\app_framework_engine\\out\Release\obj\ZipPlugin\ZipPlugin.tlog\".
+       InitializeBuildStatus:
+         Creating "D:\app_framework_engine\\out\Release\obj\ZipPlugin\ZipPlugin.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\app_framework_engine\\src\ /ID:\app_framework_engine\\src\thirdparty\ /ID:\app_framework_engine\\src\thirdparty\zlib\ /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"D:\app_framework_engine\\out\Release\obj\ZipPlugin\\" /Fd"D:\app_framework_engine\\out\Release\obj\ZipPlugin\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ZipPlugin.cpp
+         ZipPlugin.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\app_framework_engine\\out\Release\bin\ZipPlugin.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\app_framework_engine\\out\Release\lib\ /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\app_framework_engine\\out\Release\bin\ZipPlugin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\app_framework_engine\\out\Release\lib\ZipPlugin.lib" /MACHINE:X86 /SAFESEH /DLL D:\app_framework_engine\\out\Release\obj\ZipPlugin\ZipPlugin.obj
+            Creating library D:\app_framework_engine\\out\Release\lib\ZipPlugin.lib and object D:\app_framework_engine\\out\Release\lib\ZipPlugin.exp
+         ZipPlugin.vcxproj -> D:\app_framework_engine\\out\Release\bin\ZipPlugin.dll
+       FinalizeBuildStatus:
+         Deleting file "D:\app_framework_engine\\out\Release\obj\ZipPlugin\ZipPlugin.tlog\unsuccessfulbuild".
+         Touching "D:\app_framework_engine\\out\Release\obj\ZipPlugin\ZipPlugin.tlog\ZipPlugin.lastbuildstate".
+     1>Done Building Project "D:\app_framework_engine\src\plugin_example\ZipPlugin\ZipPlugin.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.79

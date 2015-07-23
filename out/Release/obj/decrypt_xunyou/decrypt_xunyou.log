@@ -1,0 +1,56 @@
+﻿Build started 2015/7/9 14:48:13.
+     1>Project "D:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\app_framework_engine\\out\Release\obj\decrypt_xunyou\decrypt_xunyou.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\app_framework_engine\\src\ /ID:\app_framework_engine\\src\thirdparty\ /ID:\app_framework_engine\\src\thirdparty\zlib\ /ID:\app_framework_engine\\src\thirdparty\libevent\include\ /ID:\app_framework_engine\\src\thirdparty\plog\include\ /ID:\app_framework_engine\\src\thirdparty\googleurl\ /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\app_framework_engine\\out\Release\obj\decrypt_xunyou\\" /Fd"D:\app_framework_engine\\out\Release\obj\decrypt_xunyou\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt decrypt_xunyou.cc
+         decrypt_xunyou.cc
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(157): warning C4091: 'typedef ' : ignored on left of 'ocsp_request_st' when no variable is declared
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(157): error C2143: syntax error : missing ';' before '<L_TYPE_raw>'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(157): error C2059: syntax error : '<L_TYPE_raw>'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(206): error C2059: syntax error : 'constant'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(206): error C2059: syntax error : ')'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(206): error C2238: unexpected token(s) preceding ';'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(350): error C2059: syntax error : 'constant'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(350): error C2059: syntax error : ')'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(350): error C2238: unexpected token(s) preceding ';'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(404): error C2226: syntax error : unexpected type 'LPCSTR'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(405): error C2059: syntax error : '('
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(405): error C2143: syntax error : missing ',' before '*'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(405): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(406): error C2062: type 'int' unexpected
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(407): error C2065: 'presp' : undeclared identifier
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(407): error C2065: 'rctx' : undeclared identifier
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(407): error C2275: 'OCSP_REQ_CTX' : illegal use of this type as an expression
+                 D:\app_framework_engine\src\thirdparty\openssl/ossl_typ.h(198) : see declaration of 'OCSP_REQ_CTX'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(409): error C2059: syntax error : '('
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(409): error C2143: syntax error : missing ',' before '*'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(409): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(409): error C2086: 'int *req' : redefinition
+                 D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(405) : see declaration of 'req'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(409): error C2143: syntax error : missing ';' before ')'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(409): error C2059: syntax error : ')'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(416): error C2059: syntax error : '('
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(416): error C2143: syntax error : missing ',' before '*'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(416): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(417): error C2143: syntax error : missing ',' before '*'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(417): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(417): error C2377: 'ASN1_BIT_STRING' : redefinition; typedef cannot be overloaded with any other symbol
+                 D:\app_framework_engine\src\thirdparty\openssl/ossl_typ.h(81) : see declaration of 'ASN1_BIT_STRING'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(418): error C2143: syntax error : missing ',' before '*'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(418): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(418): error C2377: 'ASN1_INTEGER' : redefinition; typedef cannot be overloaded with any other symbol
+                 D:\app_framework_engine\src\thirdparty\openssl/ossl_typ.h(79) : see declaration of 'ASN1_INTEGER'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(418): error C2143: syntax error : missing ';' before ')'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(418): error C2059: syntax error : ')'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(420): error C2296: '*' : illegal, left operand has type 'LPCSTR'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(420): error C2297: '*' : illegal, right operand has type 'int *'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(420): error C2065: 'cid' : undeclared identifier
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(420): error C2275: 'OCSP_CERTID' : illegal use of this type as an expression
+                 D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(105) : see declaration of 'OCSP_CERTID'
+     1>D:\app_framework_engine\src\thirdparty\openssl/ocsp.h(420): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "D:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.87

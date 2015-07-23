@@ -1,0 +1,20 @@
+﻿Build started 2015/7/9 14:49:11.
+     1>Project "D:\app_framework_engine\src\nplugins\nplugins.vcxproj" on node 4 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "D:\app_framework_engine\\out\Debug\obj\nplugins\nplugins.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\app_framework_engine\\out\Debug\bin\nplugins.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\app_framework_engine\\out\Debug\bin\nplugins.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\app_framework_engine\\out\Debug\lib\nplugins.lib" /MACHINE:X86 /SAFESEH:NO /DLL D:\app_framework_engine\\out\Debug\obj\nplugins\np_exports_address.obj
+         D:\app_framework_engine\\out\Debug\obj\nplugins\np_framework.obj
+         D:\app_framework_engine\\out\Debug\obj\nplugins\np_instance_interface.obj
+         D:\app_framework_engine\\out\Debug\obj\nplugins\np_instance_internal.obj
+         nplugins.vcxproj -> D:\app_framework_engine\\out\Debug\bin\nplugins.dll
+       FinalizeBuildStatus:
+         Deleting file "D:\app_framework_engine\\out\Debug\obj\nplugins\nplugins.tlog\unsuccessfulbuild".
+         Touching "D:\app_framework_engine\\out\Debug\obj\nplugins\nplugins.tlog\nplugins.lastbuildstate".
+     1>Done Building Project "D:\app_framework_engine\src\nplugins\nplugins.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95

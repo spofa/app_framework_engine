@@ -1,0 +1,16 @@
+﻿Build started 2015/7/9 16:45:21.
+     1>Project "D:\app_framework_engine\src\thirdparty\protobuf\vsprojects\libprotobuf.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "D:\app_framework_engine\\out\Debug\obj\libprotobuf\libprotobuf.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I. /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBPROTOBUF_EXPORTS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\app_framework_engine\\out\Debug\obj\libprotobuf\\" /Fd"D:\app_framework_engine\\out\Debug\obj\libprotobuf\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\arena.cc ..\src\google\protobuf\arenastring.cc ..\src\google\protobuf\compiler\importer.cc ..\src\google\protobuf\compiler\parser.cc ..\src\google\protobuf\descriptor.cc ..\src\google\protobuf\descriptor.pb.cc ..\src\google\protobuf\descriptor_database.cc ..\src\google\protobuf\dynamic_message.cc ..\src\google\protobuf\extension_set.cc ..\src\google\protobuf\extension_set_heavy.cc ..\src\google\protobuf\generated_message_reflection.cc ..\src\google\protobuf\generated_message_util.cc ..\src\google\protobuf\io\coded_stream.cc ..\src\google\protobuf\io\gzip_stream.cc ..\src\google\protobuf\io\printer.cc ..\src\google\protobuf\io\strtod.cc ..\src\google\protobuf\io\tokenizer.cc ..\src\google\protobuf\io\zero_copy_stream.cc ..\src\google\protobuf\io\zero_copy_stream_impl.cc ..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc ..\src\google\protobuf\map_field.cc ..\src\google\protobuf\message.cc ..\src\google\protobuf\message_lite.cc ..\src\google\protobuf\reflection_ops.cc ..\src\google\protobuf\repeated_field.cc ..\src\google\protobuf\service.cc ..\src\google\protobuf\stubs\atomicops_internals_x86_gcc.cc ..\src\google\protobuf\stubs\atomicops_internals_x86_msvc.cc ..\src\google\protobuf\stubs\common.cc ..\src\google\protobuf\stubs\once.cc ..\src\google\protobuf\stubs\stringprintf.cc ..\src\google\protobuf\stubs\structurally_valid.cc ..\src\google\protobuf\stubs\strutil.cc ..\src\google\protobuf\stubs\substitute.cc ..\src\google\protobuf\text_format.cc ..\src\google\protobuf\unknown_field_set.cc ..\src\google\protobuf\wire_format.cc ..\src\google\protobuf\wire_format_lite.cc
+         wire_format_lite.cc
+         wire_format.cc
+         unknown_field_set.cc
+         text_format.cc
+         substitute.cc
+     1>Done Building Project "D:\app_framework_engine\src\thirdparty\protobuf\vsprojects\libprotobuf.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.02

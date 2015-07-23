@@ -1,0 +1,15 @@
+﻿Build started 2015/5/14 11:06:53.
+     1>Project "C:\Users\yyh\Downloads\zlib-1.2.8\zlib-1.2.8\contrib\vstudio\vc10\testzlibdll.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x86\TestZlibDllDebug\Tmp\testzlibdll.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"x86\TestZlibDllDebug\testzlibdll.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" x86\ZlibDllDebug\zlibwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"x86\TestZlibDllDebug\testzlib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x86\TestZlibDllDebug\testzlibdll.lib" /MACHINE:X86 x86\TestZlibDllDebug\Tmp\testzlib.obj
+         "C:\Users\yyh\Downloads\zlib-1.2.8\zlib-1.2.8\contrib\vstudio\vc10\x86\ZlibDllDebug\zlibwapid.lib"
+     1>LINK : fatal error LNK1104: cannot open file 'x86\ZlibDllDebug\zlibwapi.lib'
+     1>Done Building Project "C:\Users\yyh\Downloads\zlib-1.2.8\zlib-1.2.8\contrib\vstudio\vc10\testzlibdll.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.15

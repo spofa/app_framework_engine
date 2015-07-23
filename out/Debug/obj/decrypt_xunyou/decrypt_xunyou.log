@@ -1,0 +1,36 @@
+﻿Build started 2015/7/9 16:45:20.
+     1>Project "D:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\app_framework_engine\\out\Debug\obj\decrypt_xunyou\decrypt_xunyou.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\app_framework_engine\\src\ /ID:\app_framework_engine\\src\thirdparty\ /ID:\app_framework_engine\\src\thirdparty\zlib\ /ID:\app_framework_engine\\src\thirdparty\libevent\include\ /ID:\app_framework_engine\\src\thirdparty\plog\include\ /ID:\app_framework_engine\\src\thirdparty\googleurl\ /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D OS_WIN /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\app_framework_engine\\out\Debug\obj\decrypt_xunyou\\" /Fd"D:\app_framework_engine\\out\Debug\obj\decrypt_xunyou\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt decrypt_xunyou.cc
+         decrypt_xunyou.cc
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(58): warning C4101: 'v22' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(63): warning C4101: 'v27' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(59): warning C4101: 'v23' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(54): warning C4101: 'v18' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(47): warning C4101: 'v10' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(53): warning C4101: 'v17' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(49): warning C4101: 'v13' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(56): warning C4101: 'v20' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(46): warning C4101: 'v9' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(64): warning C4101: 'v28' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(62): warning C4101: 'v26' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(57): warning C4101: 'v21' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(48): warning C4101: 'v11' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(60): warning C4101: 'v24' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(55): warning C4101: 'v19' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(61): warning C4101: 'v25' : unreferenced local variable
+     1>d:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.cc(123): warning C4715: 'sub_10058B90' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\app_framework_engine\\out\Debug\bin\decrypt_xunyou.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\app_framework_engine\\out\Debug\lib\ /LIBPATH:D:\app_framework_engine\\src\thirdparty\libevent\ /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\app_framework_engine\\out\Debug\bin\decrypt_xunyou.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\app_framework_engine\\out\Debug\bin\decrypt_xunyou.lib" /MACHINE:X86 D:\app_framework_engine\\out\Debug\obj\decrypt_xunyou\decrypt.obj
+         D:\app_framework_engine\\out\Debug\obj\decrypt_xunyou\decrypt_xunyou.obj
+         decrypt_xunyou.vcxproj -> D:\app_framework_engine\\out\Debug\bin\decrypt_xunyou.exe
+       FinalizeBuildStatus:
+         Deleting file "D:\app_framework_engine\\out\Debug\obj\decrypt_xunyou\decrypt_xunyou.tlog\unsuccessfulbuild".
+         Touching "D:\app_framework_engine\\out\Debug\obj\decrypt_xunyou\decrypt_xunyou.tlog\decrypt_xunyou.lastbuildstate".
+     1>Done Building Project "D:\app_framework_engine\src\decrypt_xunyou\decrypt_xunyou.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

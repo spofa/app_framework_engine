@@ -1,0 +1,49 @@
+﻿Build started 2015/5/14 11:07:00.
+     1>Project "C:\Users\yyh\Downloads\zlib-1.2.8\zlib-1.2.8\contrib\vstudio\vc10\zlibstat.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x86\ZlibStatRelease\Tmp\zlibstat.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         cd ..\..\masmx86
+         bld_ml32.bat
+         :VCEnd
+          Assembling: match686.asm
+         Microsoft (R) Macro Assembler Version 10.00.40219.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: inffas32.asm
+         Microsoft (R) Macro Assembler Version 10.00.40219.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"x86\ZlibStatRelease\zlibstat.lib" ..\..\masmx86\match686.obj ..\..\masmx86\inffas32.obj /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO x86\ZlibStatRelease\Tmp\zlib.res
+         x86\ZlibStatRelease\Tmp\adler32.obj
+         x86\ZlibStatRelease\Tmp\compress.obj
+         x86\ZlibStatRelease\Tmp\crc32.obj
+         x86\ZlibStatRelease\Tmp\deflate.obj
+         x86\ZlibStatRelease\Tmp\gzclose.obj
+         x86\ZlibStatRelease\Tmp\gzlib.obj
+         x86\ZlibStatRelease\Tmp\gzread.obj
+         x86\ZlibStatRelease\Tmp\gzwrite.obj
+         x86\ZlibStatRelease\Tmp\infback.obj
+         x86\ZlibStatRelease\Tmp\inffast.obj
+         x86\ZlibStatRelease\Tmp\inflate.obj
+         x86\ZlibStatRelease\Tmp\inftrees.obj
+         x86\ZlibStatRelease\Tmp\ioapi.obj
+         x86\ZlibStatRelease\Tmp\trees.obj
+         x86\ZlibStatRelease\Tmp\uncompr.obj
+         x86\ZlibStatRelease\Tmp\unzip.obj
+         x86\ZlibStatRelease\Tmp\zip.obj
+         x86\ZlibStatRelease\Tmp\zutil.obj /MACHINE:X86 /NODEFAULTLIB 
+         zlibstat.vcxproj -> C:\Users\yyh\Downloads\zlib-1.2.8\zlib-1.2.8\contrib\vstudio\vc10\x86\ZlibStatRelease\zlibstat.lib
+       FinalizeBuildStatus:
+         Deleting file "x86\ZlibStatRelease\Tmp\zlibstat.unsuccessfulbuild".
+         Touching "x86\ZlibStatRelease\Tmp\zlibstat.lastbuildstate".
+     1>Done Building Project "C:\Users\yyh\Downloads\zlib-1.2.8\zlib-1.2.8\contrib\vstudio\vc10\zlibstat.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.83

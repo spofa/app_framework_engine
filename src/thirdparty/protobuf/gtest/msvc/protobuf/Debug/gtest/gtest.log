@@ -1,0 +1,22 @@
+﻿Build started 2015/5/8 17:35:11.
+     1>Project "C:\Users\yyh\Downloads\protobuf-cpp-3.0.0-alpha-2\protobuf-3.0.0-alpha-2\gtest\msvc\gtest.vcxproj" on node 4 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "protobuf/Debug\gtest\gtest.tlog\".
+       InitializeBuildStatus:
+         Creating "protobuf/Debug\gtest\gtest.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\include /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"protobuf/Debug\gtest\\" /Fd"protobuf/Debug\gtest\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\src\gtest-all.cc"
+         gtest-all.cc
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1354,5): warning MSB8012: TargetPath(C:\Users\yyh\Downloads\protobuf-cpp-3.0.0-alpha-2\protobuf-3.0.0-alpha-2\gtest\msvc\protobuf/Debug\gtest.lib) does not match the Library's OutputFile property value (C:\Users\yyh\Downloads\protobuf-cpp-3.0.0-alpha-2\protobuf-3.0.0-alpha-2\gtest\msvc\protobuf\Debug\gtestd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1356,5): warning MSB8012: TargetName(gtest) does not match the Library's OutputFile property value (gtestd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"protobuf/Debug\gtestd.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO "protobuf/Debug\gtest\gtest-all.obj"
+         gtest.vcxproj -> C:\Users\yyh\Downloads\protobuf-cpp-3.0.0-alpha-2\protobuf-3.0.0-alpha-2\gtest\msvc\protobuf/Debug\gtest.lib
+       FinalizeBuildStatus:
+         Deleting file "protobuf/Debug\gtest\gtest.tlog\unsuccessfulbuild".
+         Touching "protobuf/Debug\gtest\gtest.tlog\gtest.lastbuildstate".
+     1>Done Building Project "C:\Users\yyh\Downloads\protobuf-cpp-3.0.0-alpha-2\protobuf-3.0.0-alpha-2\gtest\msvc\gtest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.64

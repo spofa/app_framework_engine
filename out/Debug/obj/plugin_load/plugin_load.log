@@ -1,0 +1,20 @@
+﻿Build started 2015/7/9 14:48:49.
+     1>Project "D:\app_framework_engine\src\plugin_load\plugin_load.vcxproj" on node 5 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\app_framework_engine\\out\Debug\obj\plugin_load\plugin_load.tlog\".
+       InitializeBuildStatus:
+         Creating "D:\app_framework_engine\\out\Debug\obj\plugin_load\plugin_load.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\app_framework_engine\\src\ /ID:\app_framework_engine\\src\thirdparty\ /ID:\app_framework_engine\\src\thirdparty\zlib\ /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"D:\app_framework_engine\\out\Debug\obj\plugin_load\\" /Fd"D:\app_framework_engine\\out\Debug\obj\plugin_load\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt plugin_load.cc
+         plugin_load.cc
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\app_framework_engine\\out\Debug\bin\plugin_load.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\app_framework_engine\\out\Debug\lib\ /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\app_framework_engine\\out\Debug\bin\plugin_load.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\app_framework_engine\\out\Debug\bin\plugin_load.lib" /MACHINE:X86 /SAFESEH:NO D:\app_framework_engine\\out\Debug\obj\plugin_load\plugin_load.obj
+         plugin_load.vcxproj -> D:\app_framework_engine\\out\Debug\bin\plugin_load.exe
+       FinalizeBuildStatus:
+         Deleting file "D:\app_framework_engine\\out\Debug\obj\plugin_load\plugin_load.tlog\unsuccessfulbuild".
+         Touching "D:\app_framework_engine\\out\Debug\obj\plugin_load\plugin_load.tlog\plugin_load.lastbuildstate".
+     1>Done Building Project "D:\app_framework_engine\src\plugin_load\plugin_load.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.45

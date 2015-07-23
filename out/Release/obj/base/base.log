@@ -1,0 +1,20 @@
+﻿Build started 2015/7/9 14:47:15.
+     1>Project "D:\app_framework_engine\src\thirdparty\googleurl\build\base.vcxproj" on node 3 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\app_framework_engine\\out\Release\obj\base\base.tlog\".
+       InitializeBuildStatus:
+         Creating "D:\app_framework_engine\\out\Release\obj\base\base.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\app_framework_engine\ /ID:\app_framework_engine\\src\thirdparty\googleurl\ /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W1 /WX- /O2 /Oy- /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\app_framework_engine\\out\Release\obj\base\\" /Fd"D:\app_framework_engine\\out\Release\obj\base\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\base\logging.cc
+         logging.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\app_framework_engine\\out\Release\lib\base.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO D:\app_framework_engine\\out\Release\obj\base\logging.obj
+         base.vcxproj -> D:\app_framework_engine\\out\Release\lib\base.lib
+       FinalizeBuildStatus:
+         Deleting file "D:\app_framework_engine\\out\Release\obj\base\base.tlog\unsuccessfulbuild".
+         Touching "D:\app_framework_engine\\out\Release\obj\base\base.tlog\base.lastbuildstate".
+     1>Done Building Project "D:\app_framework_engine\src\thirdparty\googleurl\build\base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.62

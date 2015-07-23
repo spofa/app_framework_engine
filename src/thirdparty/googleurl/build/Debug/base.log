@@ -1,0 +1,18 @@
+﻿Build started 2015/1/8 9:09:50.
+     1>Project "D:\developer\windows\iTunesABI\thirdparty\googleurl\build\base.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\base.unsuccessfulbuild".
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\developer\windows\iTunesABI\ /ID:\developer\windows\iTunesABI\\thirdparty\googleurl /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W1 /WX- /O2 /Oy- /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\base\logging.cc
+         logging.cc
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\developer\windows\iTunesABI\Debug\base.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO Debug\logging.obj
+         base.vcxproj -> D:\developer\windows\iTunesABI\Debug\base.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\base.unsuccessfulbuild".
+         Touching "Debug\base.lastbuildstate".
+     1>Done Building Project "D:\developer\windows\iTunesABI\thirdparty\googleurl\build\base.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.99

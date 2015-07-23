@@ -1,0 +1,18 @@
+﻿Build started 2015/5/14 11:07:03.
+     1>Project "C:\Users\yyh\Downloads\zlib-1.2.8\zlib-1.2.8\contrib\vstudio\vc10\miniunz.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x86\MiniUnzipRelease\Tmp\miniunz.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"x86\MiniUnzipRelease\miniunz.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" x86\ZlibDllRelease\zlibwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\yyh\Downloads\zlib-1.2.8\zlib-1.2.8\contrib\vstudio\vc10\x86\MiniUnzipRelease\miniunz.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x86\MiniUnzipRelease\miniunz.lib" /MACHINE:X86 x86\MiniUnzipRelease\Tmp\miniunz.obj
+         "C:\Users\yyh\Downloads\zlib-1.2.8\zlib-1.2.8\contrib\vstudio\vc10\x86\ZlibDllRelease\zlibwapi.lib"
+         miniunz.vcxproj -> C:\Users\yyh\Downloads\zlib-1.2.8\zlib-1.2.8\contrib\vstudio\vc10\x86\MiniUnzipRelease\miniunz.exe
+       FinalizeBuildStatus:
+         Deleting file "x86\MiniUnzipRelease\Tmp\miniunz.unsuccessfulbuild".
+         Touching "x86\MiniUnzipRelease\Tmp\miniunz.lastbuildstate".
+     1>Done Building Project "C:\Users\yyh\Downloads\zlib-1.2.8\zlib-1.2.8\contrib\vstudio\vc10\miniunz.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.32

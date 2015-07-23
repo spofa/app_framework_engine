@@ -1,0 +1,17 @@
+﻿Build started 2015/7/9 14:56:00.
+     1>Project "D:\app_framework_engine\src\thirdparty\googleurl\build\base.vcxproj" on node 4 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "D:\app_framework_engine\\out\Debug\obj\base\base.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\app_framework_engine\\out\Debug\lib\base.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO D:\app_framework_engine\\out\Debug\obj\base\logging.obj
+         base.vcxproj -> D:\app_framework_engine\\out\Debug\lib\base.lib
+       FinalizeBuildStatus:
+         Deleting file "D:\app_framework_engine\\out\Debug\obj\base\base.tlog\unsuccessfulbuild".
+         Touching "D:\app_framework_engine\\out\Debug\obj\base\base.tlog\base.lastbuildstate".
+     1>Done Building Project "D:\app_framework_engine\src\thirdparty\googleurl\build\base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.66

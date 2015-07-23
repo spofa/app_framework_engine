@@ -1,0 +1,61 @@
+﻿Build started 2015/1/8 9:12:23.
+     1>Project "D:\developer\windows\iTunesABI\thirdparty\googleurl\build\googleurl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\googleurl.unsuccessfulbuild".
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\developer\windows\iTunesABI\ /ID:\developer\windows\iTunesABI\\thirdparty /ID:\developer\windows\iTunesABI\\thirdparty\googleurl /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\gurl.cc ..\src\url_canon_etc.cc ..\src\url_canon_filesystemurl.cc ..\src\url_canon_fileurl.cc ..\src\url_canon_host.cc ..\src\url_canon_icu.cc ..\src\url_canon_internal.cc ..\src\url_canon_ip.cc ..\src\url_canon_mailtourl.cc ..\src\url_canon_path.cc ..\src\url_canon_pathurl.cc ..\src\url_canon_query.cc ..\src\url_canon_relative.cc ..\src\url_canon_stdurl.cc ..\src\url_util.cc
+         gurl.cc
+     1>..\src\gurl.cc(33): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         url_canon_etc.cc
+         url_canon_filesystemurl.cc
+         url_canon_fileurl.cc
+         url_canon_host.cc
+         url_canon_icu.cc
+     1>..\src\url_canon_icu.cc(34): fatal error C1083: Cannot open include file: 'unicode/ucnv.h': No such file or directory
+         url_canon_internal.cc
+     1>..\src\url_canon_internal.cc(397): error C3861: 'snprintf': identifier not found
+     1>..\src\url_canon_internal.cc(412): error C3861: 'snprintf': identifier not found
+         url_canon_ip.cc
+     1>..\src\url_canon_ip.cc(173): error C2065: 'uint64' : undeclared identifier
+                 ..\src\url_canon_ip.cc(228) : see reference to function template instantiation 'url_canon::CanonHostInfo::Family url_canon::`anonymous-namespace'::IPv4ComponentToNumber<CHAR>(const CHAR *,const url_parse::Component &,uint32 *)' being compiled
+                 with
+                 [
+                     CHAR=char
+                 ]
+                 ..\src\url_canon_ip.cc(710) : see reference to function template instantiation 'url_canon::CanonHostInfo::Family url_canon::`anonymous-namespace'::DoIPv4AddressToNumber<char>(const CHAR *,const url_parse::Component &,unsigned char [],int *)' being compiled
+                 with
+                 [
+                     CHAR=char
+                 ]
+     1>..\src\url_canon_ip.cc(173): error C2146: syntax error : missing ';' before identifier 'num'
+     1>..\src\url_canon_ip.cc(173): error C2065: 'num' : undeclared identifier
+     1>..\src\url_canon_ip.cc(176): error C2065: 'num' : undeclared identifier
+     1>..\src\url_canon_ip.cc(180): error C2065: 'num' : undeclared identifier
+     1>..\src\url_canon_ip.cc(173): error C2065: 'uint64' : undeclared identifier
+                 ..\src\url_canon_ip.cc(228) : see reference to function template instantiation 'url_canon::CanonHostInfo::Family url_canon::`anonymous-namespace'::IPv4ComponentToNumber<CHAR>(const CHAR *,const url_parse::Component &,uint32 *)' being compiled
+                 with
+                 [
+                     CHAR=char16
+                 ]
+                 ..\src\url_canon_ip.cc(718) : see reference to function template instantiation 'url_canon::CanonHostInfo::Family url_canon::`anonymous-namespace'::DoIPv4AddressToNumber<char16>(const CHAR *,const url_parse::Component &,unsigned char [],int *)' being compiled
+                 with
+                 [
+                     CHAR=char16
+                 ]
+     1>..\src\url_canon_ip.cc(173): error C2146: syntax error : missing ';' before identifier 'num'
+     1>..\src\url_canon_ip.cc(173): error C2065: 'num' : undeclared identifier
+     1>..\src\url_canon_ip.cc(176): error C2065: 'num' : undeclared identifier
+     1>..\src\url_canon_ip.cc(180): error C2065: 'num' : undeclared identifier
+         url_canon_mailtourl.cc
+         url_canon_path.cc
+         url_canon_pathurl.cc
+         url_canon_query.cc
+         url_canon_relative.cc
+         url_canon_stdurl.cc
+         url_util.cc
+         Generating Code...
+     1>Done Building Project "D:\developer\windows\iTunesABI\thirdparty\googleurl\build\googleurl.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.78
