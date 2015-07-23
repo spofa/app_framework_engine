@@ -124,7 +124,7 @@ int main(int argc,char* argv[]){
 
 	std::uint8_t s_1 = 0x80 & 0x1f;
 	std::uint8_t s_2 = 0xA1 & 0x1f;
-	ssl_observer::OCSPVerify("C:\\Users\\yyh\\Desktop\\mobileprovision\\cer\\ecmc.cer");
+	ssl_observer::OCSPVerify("C:\\Users\\xxx\\Desktop\\mobileprovision\\cer\\ecmc.cer");
 	std::vector<std::wstring> url_list;
 	plog::init(plog::debug, "certificate.txt");
 	url_list.push_back(L"http://developer.apple.com/certificationauthority/wwdrca.crl");
